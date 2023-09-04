@@ -1,0 +1,47 @@
+.chartBox {
+    display: flex;
+    height: 100%;
+  
+    .boxInfo {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  
+      .title {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+  
+        img {
+          // Your styles for the icon image
+        }
+      }
+  
+      h1 {
+        // Your styles for the number
+      }
+  
+      p {
+        // Your styles for additional information paragraphs
+        margin: 5px 0;
+      }
+  
+      a {
+        // Your styles for the link
+      }
+    }
+  
+    .chartInfo {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  
+      .chart {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+  
